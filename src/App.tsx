@@ -1,6 +1,5 @@
 
 import NavBar from './components/NavBar';
-import SideBar from './components/SideBar';
 
 function App() {
   
@@ -8,7 +7,6 @@ function App() {
   return (
     <>
    <NavBar/>
-    <SideBar/>
     </>
   )
 }
