@@ -1,2 +1,15 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
+
+.container{
+
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+   width: 100%;
+    margin-left: 5.5rem;
+    margin-top: 5.5rem;
+    
+    
+}

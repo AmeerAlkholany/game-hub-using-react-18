@@ -1,4 +1,5 @@
 
+import GameCard from './components/GameCard';
 import NavBar from './components/NavBar';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
    <NavBar/>
+   <GameCard/>
     </>
   )
 }
